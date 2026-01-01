@@ -2,6 +2,7 @@ import "./App.css"
 import Cell from "./Cell"
 import { useState } from "react"
 import { useImmer } from "use-immer"
+import html2canvas from "html2canvas"
 
 const cellSize = 50
 
